@@ -11,6 +11,10 @@ html,body{
 	color:#222;
 }
 
+.carousel-caption .btn{
+	background-color: rgba(0,0,0,0.6);
+    color: #a3c2de
+}
 .navbar{
 	padding: .8rem;
 }
@@ -31,12 +35,6 @@ html,body{
 
 .carousel-caption{
 	position: absolute;
-}
-
-.carousel-caption h1{
-	font-size: 500%;
-	text-transform: uppercase;
-	text-shadow: 1px 1px 15px #000;
 }
 
 .carousel-caption h3{
@@ -135,8 +133,10 @@ hr.light-100{
 }
 .carousel-caption .btn{
 	font-size: 95%;
-	margin-top:130px;
+	margin-top:10px;
 	padding:8px 14px;
+	background-color: rgba(0,0,0,0.6);
+    color: #a3c2de
 }
 .display-4{
 	font-size: 200%;
@@ -161,8 +161,11 @@ hr.light-100{
 	font-size: 110;
 }	
 .carousel-caption .btn{
+	margin-top:10px;
 	font-size: 90%;
 	padding:4px 8px;
+	background-color: rgba(0,0,0,0.6);
+    color: #a3c2de
 }
 .carousel-indicators{
 	display: none;
